@@ -1,14 +1,17 @@
 # wow-addon-template
 
-A template to set newbies and seasoned World of Warcraft add-on developers alike
-on the right track.
+A World of Warcraft add-on template to set newbies and seasoned developers alike
+on the right track.  *wow-addon-template* contains a bare-bones add-on,
+a GitHub workflow which automates releasing add-ons on GitHub, CurseForge
+and WoWInterface with the aid of [*packager*](https://github.com/BigWigsMods/packager),
+build instructions for *packager*,
+basic [Luacheck](https://github.com/mpeterv/luacheck) configuration,
+and a [model changelog](https://keepachangelog.com/en/1.0.0/).
 
-## Prerequisites
+## Development
 
-You must use [packager](https://github.com/BigWigsMods/packager)
-to build and publish your add-on.
-
-## Walkthrough
+You must use [*packager*](https://github.com/BigWigsMods/packager)
+to build your add-on.  *packager* requires a POSIX environment.
 
 To build your add-on:
 
@@ -22,7 +25,11 @@ To symlink your add-on into `AddOns` during development:
 $ ln -s $PWD/.release/Addon <path to your WoW installation>/_retail_/Interface/AddOns/Addon
 ```
 
-[to be completed]
+## Community
+
+You can ask questions on the [WoW UI Dev](https://discord.gg/sVQCHr5)
+Discord server.  You will also find an up-to-date list of development
+resources there.
 
 ## Credits
 
