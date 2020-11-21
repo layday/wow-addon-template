@@ -19,7 +19,7 @@ $ release.sh -m pkgmeta.yaml -d -z
 To symlink your add-on into `AddOns` during development:
 
 ```sh
-$ ln -s $PWD/.release/Addon <path your WoW installation>/_retail_/Interface/AddOns/Addon
+$ ln -s $PWD/.release/Addon <path to your WoW installation>/_retail_/Interface/AddOns/Addon
 ```
 
 [to be completed]
