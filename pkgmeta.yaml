@@ -1,0 +1,10 @@
+package-as: Addon
+enable-nolib-creation: no
+externals:
+  Addon/libs/AceAddon-3.0: https://repos.wowace.com/wow/ace3/trunk/AceAddon-3.0
+  Addon/libs/LibStub: https://repos.wowace.com/wow/ace3/trunk/LibStub
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+move-folders:
+  Addon/Addon: Addon

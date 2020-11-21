@@ -1,0 +1,15 @@
+## Author: [author]
+## Interface: 90002
+## Notes: An average add-on.
+## Title: Addon
+## Version: @project-version@
+
+## X-Curse-Project-ID: [number]
+## X-WoWI-ID: [number]
+
+# Scripts are loaded in the order they are listed - libraries must always
+# be declared first.
+libs\LibStub\LibStub.lua
+libs\AceAddon-3.0\AceAddon-3.0.xml
+
+Addon.lua
