@@ -5,7 +5,6 @@ on:
     - '*'
 jobs:
   package:
-    name: Package add-on
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -15,5 +14,4 @@ jobs:
         args: -m pkgmeta.yaml
       env:
         CF_API_KEY: ${{ secrets.CF_API_KEY }}
-        GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
         WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
