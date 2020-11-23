@@ -1,12 +1,13 @@
 # wow-addon-template
 
 A World of Warcraft add-on template to set newbies and seasoned developers alike
-on the right track.  *wow-addon-template* contains a bare-bones add-on,
-a GitHub workflow which automates releasing add-ons on GitHub, CurseForge
-and WoWInterface with the aid of [*packager*](https://github.com/BigWigsMods/packager),
-build instructions for *packager*,
-basic [Luacheck](https://github.com/mpeterv/luacheck) configuration,
-and a [model changelog](https://keepachangelog.com/en/1.0.0/).
+on the right track.  *wow-addon-template* contains a sample add-on,
+a GitHub workflow which automates releasing your add-on on GitHub, CurseForge
+and WoWInterface,
+build instructions for *packager*, the de facto add-on build tool,
+basic [Luacheck](https://github.com/mpeterv/luacheck) configuration
+and an accompanying workflow,
+and instructions for [keeping a changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Development
 
